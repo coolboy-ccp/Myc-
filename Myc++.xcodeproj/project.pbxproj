@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0046E84C1B69D1ED00D51043 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0046E84B1B69D1ED00D51043 /* main.cpp */; };
+		0046E8571B69EB0600D51043 /* FirstC++.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0046E8551B69EB0600D51043 /* FirstC++.cpp */; };
+		0046E85B1B6A040B00D51043 /* SecondC++.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0046E8591B6A040B00D51043 /* SecondC++.cpp */; };
+		0046E8611B6F0EA700D51043 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0046E85F1B6F0EA700D51043 /* Car.cpp */; };
+		0046E8641B6F0F4A00D51043 /* Teacher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0046E8621B6F0F4A00D51043 /* Teacher.cpp */; };
+		0046E8671B6F1F0600D51043 /* MyTeacher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0046E8651B6F1F0600D51043 /* MyTeacher.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0046E8461B69D1ED00D51043 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0046E8481B69D1ED00D51043 /* Myc++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Myc++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0046E84B1B69D1ED00D51043 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0046E8551B69EB0600D51043 /* FirstC++.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "FirstC++.cpp"; sourceTree = "<group>"; };
+		0046E8561B69EB0600D51043 /* FirstC++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FirstC++.h"; sourceTree = "<group>"; };
+		0046E8591B6A040B00D51043 /* SecondC++.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "SecondC++.cpp"; sourceTree = "<group>"; };
+		0046E85A1B6A040B00D51043 /* SecondC++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SecondC++.h"; sourceTree = "<group>"; };
+		0046E85F1B6F0EA700D51043 /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		0046E8601B6F0EA700D51043 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		0046E8621B6F0F4A00D51043 /* Teacher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Teacher.cpp; sourceTree = "<group>"; };
+		0046E8631B6F0F4A00D51043 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		0046E8651B6F1F0600D51043 /* MyTeacher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MyTeacher.cpp; sourceTree = "<group>"; };
+		0046E8661B6F1F0600D51043 /* MyTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTeacher.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0046E8451B69D1ED00D51043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0046E83F1B69D1ED00D51043 = {
+			isa = PBXGroup;
+			children = (
+				0046E84A1B69D1ED00D51043 /* Myc++ */,
+				0046E8491B69D1ED00D51043 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0046E8491B69D1ED00D51043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0046E8481B69D1ED00D51043 /* Myc++ */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0046E84A1B69D1ED00D51043 /* Myc++ */ = {
+			isa = PBXGroup;
+			children = (
+				0046E84B1B69D1ED00D51043 /* main.cpp */,
+				0046E8561B69EB0600D51043 /* FirstC++.h */,
+				0046E8551B69EB0600D51043 /* FirstC++.cpp */,
+				0046E85A1B6A040B00D51043 /* SecondC++.h */,
+				0046E8591B6A040B00D51043 /* SecondC++.cpp */,
+				0046E85F1B6F0EA700D51043 /* Car.cpp */,
+				0046E8621B6F0F4A00D51043 /* Teacher.cpp */,
+				0046E8631B6F0F4A00D51043 /* Teacher.h */,
+				0046E8601B6F0EA700D51043 /* Car.h */,
+				0046E8651B6F1F0600D51043 /* MyTeacher.cpp */,
+				0046E8661B6F1F0600D51043 /* MyTeacher.h */,
+			);
+			path = "Myc++";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0046E8471B69D1ED00D51043 /* Myc++ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0046E84F1B69D1ED00D51043 /* Build configuration list for PBXNativeTarget "Myc++" */;
+			buildPhases = (
+				0046E8441B69D1ED00D51043 /* Sources */,
+				0046E8451B69D1ED00D51043 /* Frameworks */,
+				0046E8461B69D1ED00D51043 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Myc++";
+			productName = "Myc++";
+			productReference = 0046E8481B69D1ED00D51043 /* Myc++ */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0046E8401B69D1ED00D51043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = chuchengpeng;
+				TargetAttributes = {
+					0046E8471B69D1ED00D51043 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 0046E8431B69D1ED00D51043 /* Build configuration list for PBXProject "Myc++" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0046E83F1B69D1ED00D51043;
+			productRefGroup = 0046E8491B69D1ED00D51043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0046E8471B69D1ED00D51043 /* Myc++ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0046E8441B69D1ED00D51043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0046E8641B6F0F4A00D51043 /* Teacher.cpp in Sources */,
+				0046E85B1B6A040B00D51043 /* SecondC++.cpp in Sources */,
+				0046E8571B69EB0600D51043 /* FirstC++.cpp in Sources */,
+				0046E8611B6F0EA700D51043 /* Car.cpp in Sources */,
+				0046E8671B6F1F0600D51043 /* MyTeacher.cpp in Sources */,
+				0046E84C1B69D1ED00D51043 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0046E84D1B69D1ED00D51043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0046E84E1B69D1ED00D51043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0046E8501B69D1ED00D51043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0046E8511B69D1ED00D51043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0046E8431B69D1ED00D51043 /* Build configuration list for PBXProject "Myc++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0046E84D1B69D1ED00D51043 /* Debug */,
+				0046E84E1B69D1ED00D51043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0046E84F1B69D1ED00D51043 /* Build configuration list for PBXNativeTarget "Myc++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0046E8501B69D1ED00D51043 /* Debug */,
+				0046E8511B69D1ED00D51043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0046E8401B69D1ED00D51043 /* Project object */;
+}
